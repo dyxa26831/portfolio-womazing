@@ -1,4 +1,4 @@
 # portfolio-womazing
--HTML5
--CSS3
--Adaptive design
+- HTML5
+- CSS3
+- Adaptive design
