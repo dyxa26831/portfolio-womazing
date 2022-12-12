@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+            
+</head>
+<body>
+        <svg display="none" >
+            <symbol id="telephone" viewBox="0 0 27 27">
+                <g>
+                    <g clip-path="url(#clip0_25054_425)">
+                    <path d="M8.25241 7.81643C6.75058 9.31823 6.75058 11.7618 8.25238 13.2636L9.05007 12.4659C7.98816 11.404 7.98814 9.67613 9.0501 8.61417C10.112 7.55224 11.8399 7.55224 12.9018 8.61414L13.6995 7.81646C12.1978 6.31463 9.75418 6.31466 8.25241 7.81643Z" />
+                    <path d="M9.84127 9.39119C9.2091 10.0234 9.20907 11.052 9.84124 11.6842L10.639 10.8865C10.5458 10.7934 10.4945 10.6695 10.4945 10.5377C10.4945 10.406 10.5458 10.2821 10.639 10.1889C10.7322 10.0958 10.856 10.0444 10.9878 10.0444C11.1195 10.0444 11.2434 10.0958 11.3366 10.1889L12.1343 9.39122C11.5021 8.75902 10.4734 8.75902 9.84127 9.39119Z" />
+                    <path d="M19.7483 7.43513L17.8551 5.54848L13.9234 9.47367L15.4476 11.0478C15.1921 11.5013 14.6379 12.3699 13.6933 13.3145C12.7487 14.2592 11.8737 14.8197 11.4159 15.0792L9.87261 13.5556L6.00226 17.4029L7.8851 19.2983C8.60485 20.0181 9.69998 20.2046 10.6102 19.7625C11.9992 19.0879 14.0955 17.8431 16.1943 15.7443C18.2931 13.6455 19.5379 11.5492 20.2125 10.1602C20.3723 9.83109 20.45 9.47787 20.45 9.12692C20.45 8.5072 20.2078 7.89464 19.7483 7.43513ZM19.1977 9.66732C18.5609 10.9785 17.3845 12.9587 15.3966 14.9466C13.4087 16.9345 11.4285 18.1109 10.1174 18.7477C9.63935 18.9799 9.06287 18.8806 8.6842 18.5019L7.59746 17.4079L9.87543 15.1436L11.1901 16.4415L11.5419 16.2849C11.5991 16.2595 12.9595 15.6438 14.4912 14.1121C16.0239 12.5795 16.6267 11.2305 16.6515 11.1739L16.8041 10.8268L15.5068 9.48705L17.8559 7.14178L18.9512 8.23327C19.3307 8.6133 19.4298 9.18952 19.1977 9.66732Z"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_25054_425">
+                    <rect width="17" height="17" transform="translate(6 3)"/>
+                    </clipPath>
+                    </defs>
+                </g>
+            </symbol>
+            <symbol id="burger" viewBox="0 0 31 18" >
+                <g>
+                    <rect width="30.875" height="3.25" rx="1.625"/>
+                    <rect y="7.25" width="30.875" height="3.25" rx="1.625" />
+                    <rect y="14.5" width="30.875" height="3.25" rx="1.625" />
+                </g>
+            </symbol>
+        </svg>
+
+    <!-- хедер хакнуть (добавить ширины) -->
+    <div class="header">
+        <div class="header__orange"></div>
+        <div class="container">
+            <div class="header__menu">
+                <div class="menu__logo">
+                    <img src="image/logo.svg" alt="">
+                    <h1 class="menu__title">Womazing</h1>
+                </div>
+                <nav class="menu__nav">
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="shop.html">Магазин</a></li>
+                        <li><a href="about_brand.html">О бренде</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="menu__phone">
+                    <svg class="telephone"><use xlink:href="#telephone"/></svg>
+                    <p class="menu__phone-number"><a>+7 (495) 823-54-12</a></p>
+                </div>
+                <img src="image/basket.svg" alt="" class="menu__basket">
+                <div class="burger">
+                    <svg class="burger"><use xlink:href="#burger"/></svg>
+                    <div class="burger__menu">
+                        <nav class="burger__nav">
+                            <ul>
+                                <li><a href="home.html">Главная</a></li>
+                                <li><a href="shop.html">Магазин</a></li>
+                                <li><a href="about_brand.html">О бренде</a></li>
+                                <li><a href="contacts.html">Контакты</a></li>
+                            </ul>
+                        </nav>
+                        <div class="burger__phone">
+                            <svg class="telephone"><use xlink:href="#telephone"/></svg>
+                            <p class="bureger__phone-number"><a>+7 (495) 823-54-12</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <section class="section__caption">
+                <div class="container">
+                    <div class="caption__inner">
+                        <div class="caption__inner-left">
+                                <div class="caption__inner-wrapper">
+                                <h1 class="caption__title">
+                                    Новые поступления
+                                    в этом сезоне
+                                </h1>
+                                <p class="caption__discription">
+                                    Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне. Время исследовать.
+                                </p>
+                                <div class="button__caption-wrapper">
+                                    <button class="caption__button">
+                                        Открыть магазин
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption__inner-right">
+                            <img src="image/photo_caption.png" alt="" class="caption__img">
+                        </div>
+                    </div>
+                </div>
+            </section>        
+    <section class="products">
+        <div class="container">
+            <h2 class="products__title">Новая коллекция</h2>
+            <div class="products__tape">
+                <div class="products__tape-block">
+                    <div class="products__tape-wrapper">
+                        <img src="image/products1.jpg" alt="" class="tape__block-img">
+                        <a href="one_item.html"><img src="image/overlay.png" alt="#" class="overlay"></a>
+                    </div>
+                    <div class="tape__block-price">
+                        <h4 class="tape__block-title">Футболка USA</h4>
+                        <div class="tape__block-wrapper">
+                            <p class="tape__block-discount">$229</p>
+                            <p class="tape__block-cost">$129</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__tape-block">
+                    <div class="products__tape-wrapper">
+                        <img src="image/products2.png" alt="" class="tape__block-img">
+                        <a href="one_item.html"><img src="image/overlay.png" alt="#" class="overlay"></a>
+                    </div>
+                    <div class="tape__block-price">
+                        <h4 class="tape__block-title">Купальник Glow</h4>
+                        <div class="tape__block-wrapper">
+                            <p class="tape__block-discount"></p>
+                            <p class="tape__block-cost">$129</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__tape-block">
+                    <div class="products__tape-wrapper">
+                        <img src="image/products2.png" alt="" class="tape__block-img">
+                        <a href="one_item.html"><img src="image/overlay.png" alt="#" class="overlay"></a>
+                    </div>
+                    <div class="tape__block-price">
+                        <h4 class="tape__block-title">Купальник Glow</h4>
+                        <div class="tape__block-wrapper">
+                            <p class="tape__block-discount"></p>
+                            <p class="tape__block-cost">$129</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="button__wrapper">
+                <button class="product__button">Открыть магазин</button>
+            </div>
+        </div>
+    </section>
+    <section class="benefits">
+        <div class="container">
+            <h2 class="benefits__title">
+                Что для нас важно
+            </h2>
+            <div class="benefits__inner">
+                <div class="benefits__inner-block">
+                    <img src="image/benefits1.svg" alt="" class="benefits__block-img">
+                    <h3 class="betefits__block-title">Качество</h3>
+                    <p class="benefits__block-discription">
+                        Наши профессионалы работают на лучшем оборудовании для пошива одежды беспрецедентного качества
+                    </p>
+                </div>
+                <div class="benefits__inner-block">
+                    <img src="image/benefits2.svg" alt="" class="benefits__block-img">
+                    <h3 class="betefits__block-title">Скорость</h3>
+                    <p class="benefits__block-discription">
+                        Благодаря отлаженной системе в Womazing мы можем отшивать до 20-ти единиц продукции в наших собственных цехах
+                    </p>
+                </div>
+                <div class="benefits__inner-block">
+                    <img src="image/benefits3.svg" alt="" class="benefits__block-img">
+                    <h3 class="betefits__block-title">Ответственность</h3>
+                    <p class="benefits__block-discription">
+                        Мы заботимся о людях и планете. Безотходное производство и комфортные условия труда - все это Womazing
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our__team">
+        <div class="container">
+            <h2 class="our__team-title">
+                Команда мечты Womazing
+            </h2>
+            <div class="our__team-block">
+                <div class="our__team-left">
+                    <img class="our__team-img" src="image/our_team2.png">
+                </div>
+                <div class="our__team-right">
+                    <h3 class="team__right-title">Для каждой</h3>
+                    <p class="team__right-discription">
+                        Каждая девушка уникальна. Однако, мы схожи в миллионе мелочей.
+                    </p>
+
+                    <p class="team__right-discription">
+                        Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно подчеркивают достоинства каждой девушки.
+                    </p>
+                    <a class="more__brand">Подробнее о бренде</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__menu">
+                <div class="menu__logo footer__logo">
+                    <img src="image/logo.svg" alt="">
+                    <h1 class="menu__title">Womazing</h1>
+                    <div class="copyright">
+                        <p>© Все права защищены</p>
+                        <p>Политика конфиденциальности</p>
+                        <p>Публичная оферта</p>
+                    </div>
+                </div>
+                <nav class="menu__nav nav__footer">
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="shop.html">Магазин</a></li>
+                        <li><a href="about_brand.html">О бренде</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__contact">
+                    <div class="contact__adress">
+                        <a href="#" class="contact__number">+7 (495) 823-54-12</a>
+                        <a href="#" class="contact__email">hello@womazing.com</a>
+                    </div>
+                    <div class="contact__social">
+                        <img src="image/instagram.svg">
+                        <img src="image/facebook.svg">
+                        <img src="image/twitter.svg">
+                    </div>
+                    <div class="contact__card">
+                        <img src="image/visa-mastercard.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer переделать -->
+</body>
+</html>
